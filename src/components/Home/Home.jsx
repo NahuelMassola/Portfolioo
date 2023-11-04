@@ -54,7 +54,7 @@ let fullGamingStoreData = {
   img2: fullGamingStore2,
   img3: fullGamingStore3,
   img4: fullGamingStore4,
-  link: 'hhttps://nahuelmassola.github.io/FullgamigStore/',
+  link: 'https://nahuelmassola.github.io/FullgamigStore/',
 }
 
 const Home = () => {
