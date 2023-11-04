@@ -1,0 +1,116 @@
+.container{
+    width: 100%;
+    height: 100%;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+
+    h4{
+        font-size: 56px;
+        font-family: Montserrat;
+        font-weight: 800;
+        background: #3494E6;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #EC6EAD, #3494E6);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #EC6EAD, #3494E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    p{
+        text-align: justify;
+        margin-top: 20px;
+        margin-left: 10px;
+        width: 93%;
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 30px;
+    }
+}
+
+.day{
+    color: #222222;
+
+    h4{
+        background: #0f0c29;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    p{
+        font-weight: 400;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .container{
+        span{
+            width: 94%;
+        }
+
+        h4{
+            font-size: 48px;
+        }
+
+        p{
+            width: 90%;
+            font-size: 16px;
+        }
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .container{
+        span{
+            font-size: 12px;
+        }
+
+        h4{
+            font-size: 40px;
+        }
+
+        p{
+            font-size: 14px;
+        }
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .container{
+        margin-top: 100px;
+        margin-bottom: 20px;
+        span{
+            font-size: 14px;
+        }
+
+        h4{
+            font-size: 42px;
+        }
+
+        p{
+            font-size: 16px;
+        }
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .container{
+        margin-top: 50px;
+        margin-bottom: 20px;
+        span{
+            font-size: 12px;
+        }
+
+        h4{
+            font-size: 32px;
+        }
+
+        p{
+            font-size: 12px;
+        }
+    }
+}
